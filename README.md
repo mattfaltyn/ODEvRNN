@@ -1,1 +1,1 @@
-# MATH-560
+# MATH 560 Mathematical Biology

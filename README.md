@@ -16,4 +16,8 @@ See the [Lotka-Volterra equations](https://en.wikipedia.org/wiki/Lotka%E2%80%93V
 
 See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/Competitive_Lotka%E2%80%93Volterra_equations) Wikipedia page for more information.
 
+### Model Analysis
+
+Phase plane + bifurcation diagram + non-dimensionalize
+
 ## 2. SIS Models

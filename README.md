@@ -18,6 +18,11 @@ See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/C
 
 ### Model Analysis
 
-Phase plane + bifurcation diagram + non-dimensionalize
+#### Phase Plane 
+<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="100" height="100" />
+
+#### Bifurcation Diagram 
+
+#### Non-Dimensionalization
 
 ## 2. SIS Models

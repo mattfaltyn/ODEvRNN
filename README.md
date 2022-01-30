@@ -22,7 +22,9 @@ See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/C
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 
 #### Bifurcation Diagram 
+TBD
 
 #### Non-Dimensionalization
+TBD
 
 ## 2. SIS Models

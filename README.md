@@ -19,7 +19,7 @@ See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/C
 ### Model Analysis
 
 #### Phase Plane 
-<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="100" height="100" />
+<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 
 #### Bifurcation Diagram 
 

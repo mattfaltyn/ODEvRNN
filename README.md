@@ -27,4 +27,8 @@ TBD
 #### Non-Dimensionalization
 TBD
 
-## 2. SIS Models
+## 2. Epidemiology Models
+### SIS
+
+### SIR
+

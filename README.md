@@ -17,9 +17,10 @@ Here are some assumptions of the predator-prey model:
 
 See the [Lotka-Volterra equations](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) Wikipedia page for more information.
 
-#### Competition Equations
+#### Competitive Equations
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/88c6f3f6a241ba6398452e1ffecff0aed08431ea" width="100" height="50" />
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6240f4e238c336bc507d73836c5a4104ccf54fc8" width="100" height="50" />
+What is going on in these equations? Let x_1 and x_2 be the respective species populations that are competing for a common food resource, r_1 and r_2 are the growth rates of each respective species, K_1 and K_2 be the respective carrying capacities of the two species, as well as alpha_12 and alpha_21 be the affect that one species has on the other. This model follows logistic dynamics.
 
 See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/Competitive_Lotka%E2%80%93Volterra_equations) Wikipedia page for more information.
 

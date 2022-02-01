@@ -7,6 +7,13 @@ The Lotka-Volterra models attempt to model the population dynamics of two specie
 
 #### Predator-Prey Equations 
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eba353633616971f427b13e175bfbdb1b99bcff0" width="100" height="100" />
+What is going on in these equations? Let x be the prey population, y be the predator population, t be time, dx/dt be the change in prey population, dy/dt be the change in predator population, and all of the other parameters (alpha, beta, gamma, delta) be real coefficients that describe the interaction dynamics between the two populations,
+
+Here are some assumptions of the predator-prey model:
+- prey has infinite food supply and appetite 
+- the predator only eats the prey and have infinite appetite
+- population dynamics are proportional to the population size
+- no enviornmental or evolutionary forces are taken into account
 
 See the [Lotka-Volterra equations](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) Wikipedia page for more information.
 

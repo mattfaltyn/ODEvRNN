@@ -36,6 +36,19 @@ See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/C
 
 A phase plane is a graphical representation of the solutions of a system of differential equations in a two-dimensional vector field where vectors represent derivatives of specific parameters at given points. Phase planes (or phase portraits) are useful for visualizing the dynamics and identifying limit behaviour of a system. 
 
+To create a phase plane for a system of linear differential equations, we follow these steps:
+1. Identify and sketch the x-nullclines, a set of points in the phase plane such that dx/dt=0 for parameters x and t
+2. Identify and sketch the y-nullclines, a set of points in the phase plane such that dy/dt=0 for parameters y and t
+3. Use the nullclines as region separators in the phase plane and fill in the veritical and horizontal direction vectors in each region 
+
+To analyze the behaviour of a phase plane, we follow these steps:
+1. Rewrite the system of linear differential equations as a matrix equation 
+2. Find the eigenvalues of the system
+3. Find the eigenvectors for the respective eigenvalues
+
+There are several ways types of behaviours for a phase plane:
+1. 
+
 
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 

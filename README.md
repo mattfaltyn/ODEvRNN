@@ -35,6 +35,8 @@ See the [Competitive Lotka–Volterra equations](https://en.wikipedia.org/wiki/C
 #### Phase Plane 
 
 A phase plane is a graphical representation of the solutions of a system of differential equations in a two-dimensional vector field where vectors represent derivatives of specific parameters at given points. Phase planes (or phase portraits) are useful for visualizing the dynamics and identifying limit behaviour of a system. 
+
+
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 
 #### Bifurcation Diagram 

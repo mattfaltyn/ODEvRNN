@@ -48,19 +48,19 @@ To analyze the behaviour of a phase plane, we follow these steps:
 
 From this eigenvalue analysis, we can examine Stability and Behaviour:
 
-##### Stability
+###### Stability
 There are several ways types of stability for a phase portraits:
 1. Unstable
 2. Asymptotically stabe
 3. Neutral stable
 
-##### Behavoiur
+###### Behavoiur
 There are several ways types of behaviours for a phase portraits:
 1. If the eigenvalues are real and their signs are opposite, then we have a saddle ( unstable) 
 2. If the eigevalues are real and their signs are the same , then we have a node (stable if trace < 0, unstable if trace > 0) 
 3. If the eigenvalues have a real and complex component, then we have a spiral (stable if trace < 0, unstable if trace > 0)
 
-#### Example
+###### Example
 Here is a phase portrait of the Lotka-Volterra predator-prey equations plotted using MATLAB (see [source code](https://github.com/mattfaltyn/MATH-560/blob/main/lotka/lotka2.m)).
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 

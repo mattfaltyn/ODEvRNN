@@ -60,7 +60,8 @@ There are several ways types of behaviours for a phase portraits:
 2. If the eigevalues are real and their signs are the same , then we have a node (stable if trace < 0, unstable if trace > 0) 
 3. If the eigenvalues have a real and complex component, then we have a spiral (stable if trace < 0, unstable if trace > 0)
 
-
+#### Example
+Here is a phase portrait of the Lotka-Volterra predator-prey equations plotted using MATLAB.
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 
 #### Bifurcation Diagram 

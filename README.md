@@ -64,11 +64,19 @@ There are several ways types of behaviours for a phase portraits:
 Here is a phase portrait of the Lotka-Volterra predator-prey equations plotted using MATLAB (see [source code](https://github.com/mattfaltyn/MATH-560/blob/main/lotka/lotka2.m)).
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 
+#### Nondimensionalization
+
+Nondimensionalization is a technique used in dynamical systems to reduce the number of constants in a system of differential equations by carefully simplifying and parameterizing the system. In my experience, it is a technique that is difficult to grasp conceptually without practice so we will jump straight into an example.
+
+###### Example
+
+
+
+
 #### Bifurcation Diagram 
 TBD
 
-#### Non-Dimensionalization
-TBD
+
 
 ## 2. Epidemiology Models
 ### SIS

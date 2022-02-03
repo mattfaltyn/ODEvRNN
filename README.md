@@ -61,7 +61,7 @@ There are several ways types of behaviours for a phase portraits:
 3. If the eigenvalues have a real and complex component, then we have a spiral (stable if trace < 0, unstable if trace > 0)
 
 #### Example
-Here is a phase portrait of the Lotka-Volterra predator-prey equations plotted using MATLAB.
+Here is a phase portrait of the Lotka-Volterra predator-prey equations plotted using MATLAB (see [source code](https://github.com/mattfaltyn/MATH-560/blob/main/lotka/lotka2.m)).
 <img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
 
 #### Bifurcation Diagram 

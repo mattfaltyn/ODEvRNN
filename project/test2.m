@@ -2,9 +2,6 @@ clear all;
 close all; 
 clc
 
-% Set parameters
-alpha = 0.1;
-
 % Set initial conditions
 y0 = [0;0;50];
 

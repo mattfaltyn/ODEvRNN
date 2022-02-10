@@ -3,7 +3,7 @@
 
 function dydt = ODEsystem(t,y)
 
-% Initial conditions
+% Initial conditions for sll N 
 dydt = [0;0;50];
 
 % Parameters

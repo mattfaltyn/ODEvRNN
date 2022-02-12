@@ -23,7 +23,7 @@ koff_r=2.75
 delta=delta1/(Is_0)^(omega-1)
 B_s=delta*(Is_0)^(omega)/(f*Vs_0*T_0)
 B_r=delta*(Ir_0)^(omega)/(f*Vr_0*T_0)
-lambda=d*T_0+B_s*T_0*Vs_0+B_r*T_0*Vr_0
+lambda=d*T_0+B_s*T0*Vs_0+B_r*T_0*Vr_0
 
 if (t<=W)
   Beta_S=B_s

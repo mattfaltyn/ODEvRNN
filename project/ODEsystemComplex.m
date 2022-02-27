@@ -4,7 +4,7 @@
 function dydt = ODEsystemComplex(t, y)
 
 % Static Parameters
-Vzero = 4.1; % [4.0-4.3]
+Vzero = 4.0; % [4.0-4.3]
 VO = 10^Vzero;
 
 
@@ -15,14 +15,14 @@ gamma = 0.5;
 omega = 1.26;
 K = 16;
 p = 3.05;
-km = 5000; % [4000-6000] set initial value to 5000
+km = 4000; % [4000-6000] set initial value to 5000
 
 CD4 = 600;
-kOffS = 2.75;
-kOffR = 2.75;
-kOnR = 0.01;
-kOnS = 0.01;
-kOni = 1.4;
+kOffS = 13628; % 2.75
+kOffR = 13628; % 2.75
+kOnR = 0.298; % 0.01
+kOnS = 2864.47; % 0.01
+kOni = 2.847; % 2.847
 
 fs = 0.9; % [0-1](CANNOT GO PAST 1)(You fix this to 0.9 if needed);  VARY
 AO = 1100;
@@ -65,6 +65,6 @@ dydt(5) = p * y(3) - c * y(5) - kOnS * y(5) * y(9) + kOffR * y(7);
 dydt(6) = kOnS * y(4) * y(9) - kOffS * y(6) - (gamma * (1 - y(8)/K) * y(6));
 dydt(7) = kOnR * y(5) * y(9) - kOffR * y(7) - (gamma * (1 - y(8)/K) * y(7));
 dydt(8) = gamma * (1 - y(8)/K) * (y(6) + y(7)) - km * y(8);
-dydt(9) = -27.5 * y(9)/100;
+dydt(9) = -7.5 * y(9)/100;
 
 end

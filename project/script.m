@@ -2,20 +2,16 @@ clear all;
 close all; 
 clc
 
+tic
 
-
-
-
-
-for i=1:10
+for i=1:5000
 
     % Set initial conditions (if you have N conditions in ODEsystem function, N must be set)
-    % y0 = [1 + (-1)^(randi(1000)) * rand(1); 2 + (-1)^(randi(1000)) * rand(1); 50 + (-1)^(randi(1000)) * rand(1)];
-    TO = 60 + (-1)^randi(100) * rand()*30; 
-    IsO = 85000 + (-1)^randi(100) * rand()*30000;
-    IrO = 15000 + (-1)^randi(100) * rand()*10000; 
-    VsO = 11000 + (-1)^randi(100) * rand()*4500; 
-    VrO = 1250 + (-1)^randi(100) * rand()*650; 
+     TO = 60 + (-1)^randi(100) * rand()*20; 
+    IsO = 26000 + (-1)^randi(100) * rand()*1000;
+    IrO = 3000 + (-1)^randi(100) * rand()*1000; 
+    VsO = 3500 + (-1)^randi(100) * rand()*500; 
+    VrO = 400 + (-1)^randi(100) * rand()*250;  
     CsO = 0; 
     CrO = 0; 
     CpO = 0; 
@@ -24,10 +20,10 @@ for i=1:10
     y0 = [TO; IsO; IrO; VsO; VrO; CsO; CrO; CpO; AO];
     
     % Time steps
-    tspan = [0:39]; 
+    tspan = [0:100]; 
 
     % ODE Solver
-    [t,y] = ode23(@ODEsystemComplex,tspan,y0);
+    [t,y] = ode23s(@ODEsystemComplex,tspan,y0);
 
     x = [t,y];
     v = x(:,[5:8]);
@@ -35,17 +31,6 @@ for i=1:10
     w(:,i) = z;
 end
 writematrix(w,'Test.csv')
-% Check to ensure loop is working correctly - should be 40x100
-% size(w)
 
-% Export solutions to CSV - rows are timepoints, columns are participants
-% writematrix(w,'Test.csv')
-
-
-
-% V=Vr+Vs+Cr+Cs
-
-% y(4) = Vs
-% y(5) = Vr
-% y(6) = Cs
-% y(7) = Cr
+toc
+% 8316.674043

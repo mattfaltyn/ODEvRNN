@@ -4,7 +4,7 @@ clc
 
 tic
 
-for i=1:5000
+for i=1:10
 
     % Set initial conditions (if you have N conditions in ODEsystem function, N must be set)
      TO = 60 + (-1)^randi(100) * rand()*20; 
@@ -29,8 +29,12 @@ for i=1:5000
     v = x(:,[5:8]);
     z = log10(real(sum(v,2)));
     w(:,i) = z;
+
+    ABv = x(:,10);
+    ABw(:,i) = ABv;
 end
-writematrix(w,'Test.csv')
+writematrix(w,'TestAB.csv')
+writematrix(ABw, 'AB.csv')
 
 toc
 % 8316.674043

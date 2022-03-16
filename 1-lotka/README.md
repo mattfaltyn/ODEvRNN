@@ -61,7 +61,7 @@ There are several ways types of behaviours for a phase portraits:
 
 ###### Example
 Here is a phase portrait of the Lotka-Volterra predator-prey equations plotted using MATLAB (see [source code](https://github.com/mattfaltyn/MATH-560/blob/main/lotka/lotka2.m)).
-<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/phase_plane.jpg" width="300" height="300" />
+<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka//Figuresphase_plane.jpg" width="300" height="300" />
 
 #### Nondimensionalization
 
@@ -70,11 +70,11 @@ Nondimensionalization is a technique used in dynamical systems to reduce the num
 ###### Example
 Here is the system of differential equations for the Lotka-Volterra competition model:
 
-<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/lotka-dim.png" width="100" height="200" />
+<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/Figures/lotka-dim.png" width="100" height="200" />
 
 Clearly, this system has units. It can be nondimensionalized in the following manner:
 
-<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka/lotka-nondim.png" width="100" height="200" />
+<img src="https://github.com/mattfaltyn/MATH-560/blob/main/lotka//Figureslotka-nondim.png" width="100" height="200" />
 
 which is much easier to analyze as independent changes in parameters alpha, beta, and delta can illustrate the behaviour of the system. 
 

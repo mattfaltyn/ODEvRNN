@@ -1,4 +1,4 @@
-# 1. Lotka–Volterra Models
+# Section 1. Lotka–Volterra Models
 
 ### Summary of Models
 The Lotka-Volterra models attempt to model the population dynamics of two species as they interact with one another in some manner. The interaction type (predator-prey, competition, etc) defines system of differential equations and parameters:

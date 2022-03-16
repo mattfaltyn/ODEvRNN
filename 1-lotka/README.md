@@ -80,4 +80,4 @@ which is much easier to analyze as independent changes in parameters alpha, beta
 
 
 #### Bifurcation Diagram 
-TBD
+A bifurcation diagram is closely related to a phase plane. By varying physical parameters in f(y), a bifurcation diagram displays qualitative information about equilibria for all y' = f(y).
